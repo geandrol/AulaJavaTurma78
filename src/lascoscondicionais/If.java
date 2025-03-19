@@ -10,8 +10,9 @@ public class If {
 			System.out.println("O n1 é menor que a soma de n2 mais n3!");
 		}
 		
-		if(n1 < (n2 - n3)) {
-			System.out.println("O n1 é menor que a subtração de n2 mais n3!");
+		if(n1 < n2) {
+			n1 += n3;
+			System.out.println("O valor de n1 é: "+ n1);
 		}
 		
 		if(n3 > n2 ) {

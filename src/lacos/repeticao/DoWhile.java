@@ -9,7 +9,7 @@ public class DoWhile {
 
 		String usuarioCorreto = "admin";
 		String senhaCorreta = "12345";
-		boolean autenticado = false;
+		boolean novaTentativa = false;
 
 		
 		do {
@@ -27,15 +27,15 @@ public class DoWhile {
 				System.out.print("Deseja tentar novamente? (s/n): ");
 				String continuar = scanner.next().toUpperCase();
 				  if(continuar.equals("S")) {
-					  autenticado = true;
+					  novaTentativa = true;
 					  scanner.nextLine();
 				  }else {
-					  autenticado = false;
+					  novaTentativa = false;
 					  System.out.println("Não consegue né!? ");
 				  }
 			}
 				
-		}while(autenticado);
+		}while(novaTentativa);
 		
 	}
 }

@@ -21,7 +21,7 @@ public class IfEncadeado {
 
 		if (media >= 6) {
 			System.out.printf("Parabêns você foi aprovado!" + media );
-		}else if (media >= 5) {
+		}else if (media == 5) {
 			System.out.printf("Você ficou de recuperação! %.2f" , media);
 		}
 		else {

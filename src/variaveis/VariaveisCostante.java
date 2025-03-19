@@ -18,10 +18,7 @@ public class VariaveisCostante {
 		String palavra = "Generation Brasil";
 		
 		quantidade = 4552;
-		
-		
-		
-		
+			
 	}
 	
 }

@@ -24,7 +24,7 @@ public class SwitchCase {
 			leia.nextLine();
 			nome = leia.nextLine().toUpperCase();
 						
-			if(nome.equals("O ALQUIMISTA")) {
+			if(nome.equals("O ALQUIMISTA") || nome.equals("O ALQUIMISTA") ) {
 				System.out.println("Esse livro é top!");
 			}else {
 				System.out.println("Não curti!");
